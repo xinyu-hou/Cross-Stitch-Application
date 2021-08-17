@@ -1,0 +1,31 @@
+load image1.png
+blur
+save image1-blur.png
+load image1.png
+blur
+blur
+save image1-blur-twice.png
+load image1.png
+sharpen
+save image1-sharpen.png
+load image1.png
+greyscale
+save image1-greyscale.png
+load image1.png
+sepia
+save image1-sepia.png
+load image1.png
+dither 8
+save image1-dither8.png
+load image1.png
+dither 2
+save image1-dither2.png
+load image1.png
+mosaic 570
+save image1-mosaic570.png
+load image1.png
+pixelate 50
+save image1-pixelate50.png
+load image1.png
+pattern 50 
+savepattern image1-pattern50.txt
